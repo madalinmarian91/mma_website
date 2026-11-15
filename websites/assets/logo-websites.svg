@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="150" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
+  <title id="title">MMA Tech Websites</title>
+  <desc id="desc">Identitatea MMA Tech, extinsă pentru divizia Websites.</desc>
+  <rect width="620" height="150" rx="20" fill="#fff"/>
+  <text x="24" y="72" fill="#101512" font-family="Montserrat,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-3">MMA</text>
+  <text x="190" y="72" fill="#084e32" font-family="Montserrat,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-3">Tech</text>
+  <text x="26" y="118" fill="#084e32" font-family="Montserrat,Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="8">WEBSITES</text>
+  <g fill="#084e32"><rect x="527" y="26" width="25" height="25" rx="3"/><rect x="558" y="26" width="25" height="25" rx="3"/><rect x="527" y="57" width="25" height="25" rx="3"/><rect x="558" y="57" width="25" height="25" rx="3"/></g>
+</svg>

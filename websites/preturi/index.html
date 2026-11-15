@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calculator Preț Website | MMA Tech Websites</title>
+  <meta name="description" content="Configurează website-ul dorit și află costul estimativ. Alege tipul site-ului, paginile și funcționalitățile suplimentare.">
+  <link rel="canonical" href="https://mmatech.ro/websites/preturi/">
+  <meta property="og:type" content="website"><meta property="og:locale" content="ro_RO"><meta property="og:title" content="Calculator Preț Website | MMA Tech Websites"><meta property="og:description" content="Configurează website-ul dorit și află costul estimativ."><meta property="og:url" content="https://mmatech.ro/websites/preturi/"><meta property="og:image" content="https://mmatech.ro/assets/og-main.jpg">
+  <link rel="icon" href="../../assets/favicon.ico" sizes="any"><link rel="stylesheet" href="../styles.css?v=20261103-1">
+</head>
+<body class="calculator-page">
+  <a class="skip-link" href="#calculator">Sari la configurator</a>
+  <header class="site-header"><div class="nav-wrap"><a class="web-brand" href="../" aria-label="MMA Tech Websites"><img src="../assets/logo-websites.svg" width="620" height="150" alt="MMA Tech Websites"></a><nav class="desktop-nav" aria-label="Navigare principală"><a href="../">Websites</a><a href="../#portofoliu">Portofoliu</a><a href="../#proces">Cum lucrăm</a><a href="../../smart-systems/">Smart Systems</a><a href="../../">MMA Tech</a></nav><a class="button header-cta" href="https://wa.me/40775681508">WhatsApp</a><details class="mobile-nav"><summary aria-label="Deschide meniul"><span></span><span></span><span></span></summary><nav aria-label="Navigare mobilă"><a href="../">Websites</a><a href="../#portofoliu">Portofoliu</a><a href="../../smart-systems/">Smart Systems</a><a href="../../">MMA Tech</a></nav></details></div></header>
+  <main id="calculator">
+    <section class="calculator-hero"><div class="container"><p class="eyebrow">Estimare transparentă</p><h1>Configurează website-ul tău.</h1><p class="lede">Selectează opțiunile dorite. Estimarea se actualizează instant și separă costurile unice, lunare și anuale.</p><div class="promo-banner" id="promo-banner" role="status"></div></div></section>
+    <div class="container calculator-layout">
+      <form class="config-form" id="config-form">
+        <section class="config-section"><fieldset><legend>1. Tipul website-ului</legend><div class="choice-grid">
+          <label class="choice"><input type="radio" name="package" value="landing" checked><span><strong>Landing Page</strong><small>1 pagină · de la 799 lei</small></span></label>
+          <label class="choice"><input type="radio" name="package" value="business"><span><strong>Site de prezentare</strong><small>5 pagini · de la 1.499 lei</small></span></label>
+          <label class="choice"><input type="radio" name="package" value="custom"><span><strong>Dezvoltare personalizată</strong><small>Necesită ofertă individuală</small></span></label>
+        </div></fieldset></section>
+        <section class="config-section"><h2>2. Numărul de pagini</h2><label class="pages-control" for="pages"><span>Pagini dorite</span><input id="pages" name="pages" type="number" min="1" max="50" step="1" value="1" inputmode="numeric"></label><p class="summary-note">Paginile care depășesc pachetul sunt analizate și ofertate individual.</p></section>
+        <section class="config-section"><fieldset><legend>3. Funcționalități suplimentare</legend><div class="choice-grid">
+          <label class="choice"><input type="checkbox" name="extras" value="gallery"><span><strong>Galerie foto</strong><small>100 lei standard</small></span></label>
+          <label class="choice"><input type="checkbox" name="extras" value="blog"><span><strong>Blog</strong><small>200 lei standard</small></span></label>
+          <label class="choice"><input type="checkbox" name="extras" value="customFeature"><span><strong>Funcționalitate personalizată</strong><small>Necesită ofertă individuală</small></span></label>
+        </div></fieldset></section>
+        <section class="config-section"><fieldset><legend>4. Mentenanță</legend><div class="choice-grid">
+          <label class="choice"><input type="radio" name="maintenance" value="none" checked><span><strong>Fără mentenanță</strong><small>Poate fi adăugată ulterior</small></span></label>
+          <label class="choice"><input type="radio" name="maintenance" value="basic"><span><strong>Mentenanță Basic</strong><small>119 lei/lună în campanie</small></span></label>
+        </div></fieldset></section>
+        <section class="config-section"><fieldset><legend>5. Hosting și domeniu</legend><div class="choice-grid">
+          <label class="choice"><input type="checkbox" name="annual" value="hosting"><span><strong>Hosting administrat</strong><small>399 lei/an în campanie</small></span></label>
+          <label class="choice"><input type="checkbox" name="annual" value="domain"><span><strong>Administrare domeniu</strong><small>Necesită ofertă individuală</small></span></label>
+        </div></fieldset></section>
+      </form>
+      <aside class="summary" aria-labelledby="summary-title" aria-live="polite"><h2 id="summary-title">Sumarul estimării</h2><div class="summary-lines" id="summary-lines"></div><div class="custom-warning" id="custom-warning" role="status"></div><div class="summary-totals"><div class="summary-total"><span>Cost unic estimat</span><strong id="total-once">0 lei</strong></div><div class="summary-total"><span>Cost lunar</span><strong id="total-monthly">0 lei</strong></div><div class="summary-total"><span>Cost anual</span><strong id="total-annual">0 lei</strong></div></div><div class="summary-actions"><button class="button" type="button" id="whatsapp-button">Solicită oferta pe WhatsApp</button><button class="button button-secondary" type="button" id="pdf-button">Descarcă estimarea PDF</button></div><p class="summary-note">Estimarea este orientativă. Oferta finală și termenul se confirmă după analiza cerințelor. Datele nu sunt trimise sau stocate automat.</p></aside>
+    </div>
+  </main>
+  <div class="mobile-total"><div><span>Estimare: <strong id="mobile-once">0 lei</strong></span><button class="button" type="button" id="mobile-whatsapp">Solicită oferta</button></div></div>
+  <footer><div class="container footer-grid"><div><img src="../assets/logo-websites.svg" width="620" height="150" alt="MMA Tech Websites"><p>Website-uri construite cu rigoare tehnică.</p></div><div><h2>Navigare</h2><a href="../">Websites</a><a href="../../smart-systems/">Smart Systems</a><a href="../../">MMA Tech</a></div><div><h2>Contact</h2><a href="tel:+40775681508">0775 681 508</a><a href="mailto:contact@mmatech.ro">contact@mmatech.ro</a></div></div><div class="container legal">© 2026 MMA Tech &amp; Shop SRL. Toate drepturile rezervate.</div></footer>
+  <script src="../config.js?v=20261103-1"></script><script src="../calculator.js?v=20261103-1"></script><script src="../site.js?v=20261103-1" defer></script><script src="app.js?v=20261103-1" defer></script>
+</body></html>
