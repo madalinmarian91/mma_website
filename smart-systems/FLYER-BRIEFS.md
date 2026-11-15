@@ -21,7 +21,7 @@ Acestea sunt briefuri și texte de lucru, nu fișiere declarate gata de tipar.
 - Scenarii Acasă, Noapte, Plecat și Vacanță
 - Verificarea și optimizarea sistemelor smart existente
 
-**Accent:** Oferte de sezon
+**Accent:** Confort în sezonul rece
 
 **CTA:** Discută cu noi: **0775 681 508**
 

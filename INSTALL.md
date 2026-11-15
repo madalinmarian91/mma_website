@@ -1,7 +1,7 @@
 # Instalare
 
-Încărcați conținutul acestei arhive în rădăcina domeniului `mmatech.ro`, fără a șterge directorul existent `smart-systems/`.
+Site-ul este static și nu necesită build. Arhiva completă se extrage în rădăcina publică a domeniului, păstrând `index.html`, `assets/`, `websites/` și `smart-systems/` în structura lor. Pagina Smart Systems folosește resurse comune din rădăcină și este inclusă în aceeași livrare.
 
-Fișierul `index.html` trebuie să rămână la rădăcină. Toate resursele sunt locale și nu este necesar un proces de build. După încărcare, verificați `https://mmatech.ro/`, formularul WhatsApp, telefonul și favicon-ul.
+Faceți un backup înainte de actualizare. Extragerea nu elimină fișiere vechi: dacă există, retrageți separat vechiul director `websites/preturi/` și fișierele sale asociate `websites/config.js` și `websites/calculator.js`, după backup.
 
-Pagina Smart Systems se instalează separat, din arhiva dedicată, în directorul `/smart-systems/`.
+După încărcare, verificați cele trei pagini, navigarea, imaginile, formularele și versiunea din footer. Verificați și că vechea pagină a configuratorului nu mai este accesibilă.

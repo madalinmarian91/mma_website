@@ -1,9 +1,9 @@
 # Instalare
 
-Încărcați întregul conținut al arhivei în directorul public `/smart-systems/`, astfel încât `index.html` să fie disponibil la `https://mmatech.ro/smart-systems/`.
+Pagina se livrează împreună cu site-ul principal, în directorul public `/smart-systems/`. Are nevoie de resursele comune din rădăcină, inclusiv `redesign.css`, `navigation-active.js` și fișierele din `assets/`; copierea acestui director singur nu este suficientă.
 
-Toate resursele interne folosesc căi relative și nu există dependențe de runtime. După încărcare, verificați telefonul, linkurile WhatsApp, formularul, favicon-ul, canonical și sitemap-ul.
+După instalare, verificați pagina, navigarea, imaginile, formularul, telefonul și linkurile WhatsApp.
 
 ## Mutare ulterioară pe subdomeniu
 
-La mutarea pe un subdomeniu trebuie schimbate: `canonical`, `og:url`, `og:image`, URL-ul din datele structurate, URL-ul din `sitemap.xml`, destinațiile QR și legăturile dintre site-uri. Publicați o singură versiune indexabilă și configurați redirecționare permanentă de la vechiul `/smart-systems/` către noul URL.
+La mutare trebuie adaptate căile resurselor comune, canonical, metadatele Open Graph, datele structurate, sitemap-ul și legăturile dintre site-uri. Configurați redirecționarea de la vechiul URL.

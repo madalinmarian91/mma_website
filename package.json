@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "test": "node tests/run.js",
-    "check": "node --check websites/config.js && node --check websites/calculator.js && node --check websites/preturi/app.js && node --check websites/site.js && node --check script.js"
+    "check": "node --check websites/site.js && node --check script.js && node --check smart-systems/script.js && node --check carousel.js && node --check counters.js && node --check navigation-active.js"
   }
 }
