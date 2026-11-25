@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mmatech.de/sitemap.xml
